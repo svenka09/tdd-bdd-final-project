@@ -23,6 +23,8 @@ from flask import url_for  # noqa: F401 pylint: disable=unused-import
 from service.models import Product
 from service.common import status  # HTTP Status Codes
 from . import app
+from urllib.parse import quote_plus
+from service.models import Product, Category
 
 
 ######################################################################
